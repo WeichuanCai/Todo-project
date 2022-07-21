@@ -4,12 +4,15 @@ import './App.css';
 import FirstComponent from './components/examples/FirstComponent.jsx'
 import SecondComponent from './components/examples/SecondComponent.jsx'
 import Counter from './components/counter/Counter.jsx'
+import TodoApp from './components/todo/TodoApp.jsx';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter/>
+        {/* <Counter/> */}
+        <TodoApp></TodoApp>
       </div>
     );
   }
